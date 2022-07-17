@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+html{
+    font-family:'Times New Roman', Times, serif;
+}
+.header{
+    background-color:rgba(169, 169, 169, 0.5);
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);    
+    line-height: 50px;
+    z-index: 1;
+}
+.header>ul>li{
+    display: inline-block;
+    padding: 0px 16px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.header>ul>li>a{
+    color:#000;
+    display: block;
+}
+.header>ul>li:hover{
+    background-color: #888888;
+}
+.header>ul>li:hover>a{
+    color: black;
+}
+.header .search{
+    display: inline-block;
+    float: right;
+    width: 70px;
+    height: 100%;
+    text-align: center;
+}
+.menu{
+    display: none;
+}
+.header .search:hover{
+    background-color: rgb(219, 41, 41);
+    color: aliceblue;
+}
+.my-photo{
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/292760731_1054816385153961_8612689210191502195_n.jpg?stp=dst-jpg_p403x403&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=VjKN9PbGoZcAX8VmYJj&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AVKI1qAAFtkIe_rAnJ78XJgmfMxyxEhhkNfWZWCD87TZFQ&oe=62F60913);
+    padding-top:50%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    min-height: 100%;
+}
+.common{
+    padding: 64px 16px;
+    margin: auto;
+    width: 900px;
+    max-width: 100%;
+    text-align: center;
+}
+.common .heading{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: rgba(169, 169, 169, 0.993);
+    margin: 10px 0px;
+    line-height: 1.8;
+}
+.common .slogan{
+    display: block;
+    color: #777;
+    line-height: 1.8;
+    font-size: 17px;
+    margin: 15px 0px;
+    font-style: normal;
+}
+.around .infor,
+.around .photo{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 12px 24px;
+}
+.around{
+    overflow: hidden;
+    text-align: left;
+    padding: 64px 0px;
+    border:3px solid black;
+    margin: 64px 0px;
+}
+.photo img{
+    width: 100%;
+}
+.around .infor .thongtin,
+.around .photo .text-photo{
+    font-size: 24px;
+    color: palevioletred;
+    font-weight: 400;
+    letter-spacing: 4px;
+    line-height: 1.8;
+    margin: 8px 0px;
+}
+.around .infor .thongtin{
+    color: black;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.around .infor{
+    text-align: justify;
+}
+.around .info-box{
+    border:3px solid palevioletred;
+    padding: 0px 18px;
+    background-color: rgba(169, 169, 169, 0.2);
+}
+.around .text-info{
+    padding: 20px 0px;
+}
+.around .text-info h3{
+    letter-spacing: 8px;
+    line-height: 1.5;
+    margin: 8px 0px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.around .text-info p{
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 8px 0px;
+}
+
+.conten .text-3{
+    color: black;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    padding: 16px 0px;
+    margin: 18px 0px;
+    padding-top: 12px;
+}
+.conten .text-ti{
+    text-align: left;
+    letter-spacing: 4px;
+    line-height: 1.8;
+    margin: 15px 0px;
+}
+.conten .layer-1{
+    width: 100%;
+    background-color: darkslategrey;
+}
+.conten .layer-1 .layer-2{
+    background-color: pink;
+    font-size: 20px;
+    padding: 4px 8px;
+}
+.conten .l-80{
+    width: 80%;
+}
+.conten .l-90{
+    width: 90%;
+}
+.conten .l-100{
+    width: 100%;
+}
+.ach{
+    padding: 16px 0px;
+    overflow: hidden;
+    background-color: #888888;
+}
+.ach .box-chill{
+    float: left;
+    margin: 16px 0px;
+    text-align: center;
+    width: 24% !important;
+}
+.box-chill h2,
+.ach .box-chill p{
+    color: white;
+    line-height: 1.8;
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+.box-chill h2{
+    font-size: 32px;
+}
+.box-dad{
+    overflow: hidden;
+    margin top: 72px;
+}
+.photo-me,
+.info-me {
+    padding: 16px;
+    float: left;
+    width: 50%;
+}
+.box-dad .text-me{
+    text-align: left;
+}
+.box-dad .thongtin{
+    font-weight: 400;
+    line-height:1.8 ;
+    letter-spacing: 4px;
+    margin: 16px 0px;  
+}
+.box-dad .info-me .text-me{
+    padding:20px 0px;
+    border-bottom: 2px solid white ;
+}
+.box-dad .text-me p,
+.box-dad .text-me h2{
+    line-height: 1.4;
+    letter-spacing: 8px;
+    padding: 8px 0px;
+}
+.box-dad .photo-me .name-me{
+    margin-top: 32
+    px;
+    padding: 16px 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.ab-me{
+    background-color: pink;
+}
+.end .letter-of-me{
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 17px;
+}
+.end .box-text{
+    padding: 18px 16px;
+    border: 2px solid #888888;
+}

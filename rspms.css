@@ -1,0 +1,32 @@
+@media (min-width:1024px){
+    
+}
+@media (min-width:740px) and (max-width:1023px){
+    
+}
+@media (max-width:740px){
+    .photo-me,
+    .info-me, 
+    .around .infor,
+    .around .photo{
+        width: 100%;
+    }
+    .header>ul>li{
+        display: block;
+    }
+    .header .search{
+        display: none;
+    }
+    .header{
+        overflow: hidden;
+    }
+    .menu{
+        display: inline-block;
+        float: right;
+        height: 50px;
+        line-height: 50px;
+        padding: 0px 18px;
+        background-color: antiquewhite;
+}
+    }
+}
